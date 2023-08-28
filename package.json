@@ -1,0 +1,40 @@
+{
+  "name": "image-resizer-desktop-app-using-electron",
+  "version": "1.0.0",
+  "productName": "Image Resizer",
+  "description": "App to resize image",
+  "main": "main.js",
+  "postinstall": "electron-builder install-app-deps",
+
+  "build": {
+    "appId": "ous123",
+    "win": {
+      "icon": "download.png"
+    }
+
+  },
+
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ous776/Image-Resizer-desktop-app-using-Electron.git"
+  },
+  "author": "Ousman Camara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ous776/Image-Resizer-desktop-app-using-Electron/issues"
+  },
+  "homepage": "https://github.com/ous776/Image-Resizer-desktop-app-using-Electron#readme",
+
+  "devDependencies": {
+    "electron-builder": "^24.6.3",
+    "electron": "^25.5.0",
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron-reloader": "^1.2.3",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  }
+}
