@@ -28,13 +28,15 @@
     "url": "https://github.com/ous776/Image-Resizer-desktop-app-using-Electron/issues"
   },
   "homepage": "https://github.com/ous776/Image-Resizer-desktop-app-using-Electron#readme",
-
+  "dependencies": {
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  },
   "devDependencies": {
     "electron-builder": "^24.6.3",
     "electron": "^25.5.0",
     "electron-reload": "^2.0.0-alpha.1",
-    "electron-reloader": "^1.2.3",
-    "resize-img": "^2.0.0",
-    "toastify-js": "^1.12.0"
+    "electron-reloader": "^1.2.3"
+
   }
 }
